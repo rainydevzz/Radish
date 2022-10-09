@@ -18,5 +18,5 @@ class Create:
             f.close()
 
         with open(f"{dir}/readme.md", 'w') as f:
-            f.write("### Create a README here.")
+            f.write("## Welcome to my super cool project!\nThese are my project details!")
             f.close()
