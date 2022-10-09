@@ -54,8 +54,7 @@ class Radish:
         cre.make_dirs(dir=udir)
         cre.make_base_files(dir=udir, ext=ext)
 
-        print(Fore.GREEN + "All Done! Star me on GitHub if you found me useful. <3\n\nLink: https://github.com/laserzz/Radish")
+        print(Fore.GREEN + "All Done! Star me on GitHub if you found me useful. <3\n\nLink: https://github.com/laserzz/Radish" + Fore.RESET)
         time.sleep(1)
-        print(Fore.RESET)
 
 Radish.run()
