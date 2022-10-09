@@ -34,7 +34,7 @@ class Radish:
                 break
 
         folders = []
-        
+
         while True:
             uf = input("Enter a subfolder to add. \n Type e to exit. ")
             if uf.lower() == 'e':
