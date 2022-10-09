@@ -40,9 +40,14 @@ class Radish:
         folders = []
 
         while True:
-            uf = input("Enter a subfolder to add.\nType e to exit. ")
+            uf = input("Enter a subfolder to add.\nType e to exit.\n\nAlternatively, enter all subfolders, seperated by a comma then a space. ")
             
             if uf.lower() == 'e':
+                break
+
+            if " " in uf.lower():
+                for f in uf.split(", "):
+                    folders.append(f)
                 break
 
             folders.append(uf)
