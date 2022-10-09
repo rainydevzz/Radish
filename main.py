@@ -41,6 +41,7 @@ class Radish:
 
         while True:
             uf = input("Enter a subfolder to add.\nType e to exit. ")
+            
             if uf.lower() == 'e':
                 break
 
