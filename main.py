@@ -45,7 +45,7 @@ class Radish:
             if uf.lower() == 'e':
                 break
 
-            if " " in uf.lower():
+            if ", " in uf.lower():
                 for f in uf.split(", "):
                     folders.append(f)
                 break
