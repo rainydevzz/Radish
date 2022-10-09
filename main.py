@@ -8,7 +8,9 @@ class Radish:
         print("Welcome To..")
         time.sleep(2)
 
-        print(Fore.RED + """
+        print(
+        Fore.RED + 
+        """
                                   ___                     ___        ___  
                                  (   )  .-.              (   )      (   ) 
          ___ .-.      .---.    .-.| |  ( __)     .--.     | | .-.    | |  
@@ -22,7 +24,9 @@ class Radish:
         (___)       `.__.'_.  `.__,'   (___)   '.___.'   (___)(___) (   ) 
                                                                      '-'  
 
-        """)
+        """
+        )
+
         time.sleep(1)
 
         while True:
