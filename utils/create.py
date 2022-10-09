@@ -14,6 +14,7 @@ class Create:
             f.close()
         
         with open(f"{dir}/main.{ext}", 'w') as f:
+            f.write("'Begin Writing code! Star me on GitHub if you found this tool helpful <3'")
             f.close()
 
         with open(f"{dir}/readme.md", 'w') as f:

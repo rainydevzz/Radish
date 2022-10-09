@@ -40,7 +40,7 @@ class Radish:
         folders = []
 
         while True:
-            uf = input("Enter a subfolder to add. \n Type e to exit. ")
+            uf = input("Enter a subfolder to add.\nType e to exit. ")
             if uf.lower() == 'e':
                 break
 
@@ -52,5 +52,7 @@ class Radish:
 
         cre.make_dirs(dir=udir)
         cre.make_base_files(dir=udir, ext=ext)
+
+        print(Fore.GREEN + "All Done! Star me on GitHub if you found me useful. <3\n\nLink: https://github.com/laserzz/Radish")
 
 Radish.run()
